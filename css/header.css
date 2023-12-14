@@ -7,8 +7,9 @@ header {
 .header-Name {
     font-size: 20px;
     color: white;
-    margin: 28px 0 0px 30px;
+    margin: auto 0px auto 30px;
     opacity: 100%;
+    transition: 0.3s;
 }
 
 .header-Logo {
@@ -37,4 +38,17 @@ header {
 .header-LogoContainer {
     margin-left: auto;
     display: flex;
+}
+
+@media (max-width: 980px) {
+    .header-Name {
+        font-size: 15px;
+        margin: auto 0 auto 30px;
+        transition: 0.3s;
+    }
+
+    .header-Logo {
+        margin: auto 5px;
+        transition: 0.3s;
+    }
 }
