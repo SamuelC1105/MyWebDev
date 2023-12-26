@@ -1,0 +1,156 @@
+projectDisp {
+  width: 100%;
+  height: 250px;
+  margin-top: 30px;
+  display: flex;
+}
+
+.projectDisp-contentContainer {
+  width: 80%;
+  margin: 0px auto 0px auto; 
+  display: flex;
+  border-radius: 30px;
+}
+
+.projectDisp-contentLeft {
+  background-color: rgb(255, 255, 255, 0.1);
+  width: 50%;
+  border-radius: 30px 0px 0px 30px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.projectDisp-contentLeft h1 {
+  margin: 20px 20px 0px 20px;
+  font-family: roboto-bold;
+  text-decoration: solid 2px;
+  color: white;
+}
+
+.projectDisp-contentLeft p {
+  margin: 20px 20px 0px 20px;
+  font-size: 17pt;
+  font-weight: normal;
+  font-family: roboto;
+  color: white;
+}
+
+.projectDisp-contentLeft button {
+  border: none;
+  border-radius: 20px;
+  width: 95%;
+  height: 40px;
+  color: black;
+  background-color: rgb(235, 235, 235);
+  cursor: pointer;
+  transition: 0.3s;
+  margin: auto auto 30px auto;
+  font-size: 15pt;
+  font-weight: bold;
+}
+
+.projectDisp-contentLeft button:hover {
+  color: white;
+  background-color: rgb(255, 60, 60);
+  margin: auto auto 20px auto;
+  height: 60px;
+}
+
+.projectDisp-contentRight {
+  width: 50%;
+  background-color: rgb(32, 36, 50);
+  border-radius: 0px 30px 30px 0px;
+  overflow: hidden;
+}
+
+.projectDisp-contentRight img {
+  border-radius: 0px 30px 30px 0px;
+}
+
+@media (max-width: 1420px) {
+  projectDisp {
+    width: 100%;
+    height: 500px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .projectDisp-contentContainer {
+    width: 80%;
+    height: 100%;
+    margin: 0px auto 0px auto; 
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+  }
+  
+  .projectDisp-contentLeft {
+    background-color: rgb(255, 255, 255, 0.1);
+    width: 100%;
+    height: 50%;
+    border-radius: 30px 30px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  
+  .projectDisp-contentLeft h1 {
+    margin: 20px 20px 0px 20px;
+    font-family: roboto-bold;
+    text-decoration: solid 2px;
+    color: white;
+  }
+  
+  .projectDisp-contentLeft p {
+    margin: 20px 20px 0px 20px;
+    font-size: 17pt;
+    font-weight: normal;
+    font-family: roboto;
+    color: white;
+  }
+  
+  .projectDisp-contentLeft button {
+    border: none;
+    border-radius: 20px;
+    width: 95%;
+    height: 40px;
+    color: black;
+    background-color: rgb(235, 235, 235);
+    cursor: pointer;
+    transition: 0.3s;
+    margin: auto auto 30px auto;
+    font-size: 15pt;
+    font-weight: bold;
+  }
+  
+  .projectDisp-contentLeft button:hover {
+    color: white;
+    background-color: rgb(255, 60, 60);
+    margin: auto auto 20px auto;
+    height: 60px;
+  }
+  
+  .projectDisp-contentRight {
+    width: 100%;
+    height: 50%;
+    background-color: rgb(32, 36, 50);
+    border-radius: 0px 0px 30px 30px;
+    overflow: hidden;
+  }
+  
+  .projectDisp-contentRight img {
+    border-radius: 0px 0px 30px 30px;
+  }
+}
+
+@media (max-width: 980px) {
+  .projectDisp-contentLeft h1 {
+    font-size: 17pt;
+  }
+
+  .projectDisp-contentLeft p {
+    font-size: 15pt;
+  }
+}
