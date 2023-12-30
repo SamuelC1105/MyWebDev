@@ -10,10 +10,11 @@ projectDisp {
   margin: 0px auto 0px auto; 
   display: flex;
   border-radius: 30px;
+  box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.1);
 }
 
 .projectDisp-contentLeft {
-  background-color: rgb(255, 255, 255, 0.1);
+  background-color: rgb(255, 255, 255, 0.8);
   width: 50%;
   border-radius: 30px 0px 0px 30px;
   display: flex;
@@ -25,7 +26,7 @@ projectDisp {
   margin: 20px 20px 0px 20px;
   font-family: roboto-bold;
   text-decoration: solid 2px;
-  color: white;
+  color: rgba(10, 10, 16, 1);
 }
 
 .projectDisp-contentLeft p {
@@ -33,7 +34,7 @@ projectDisp {
   font-size: 17pt;
   font-weight: normal;
   font-family: roboto;
-  color: white;
+  color: rgba(10, 10, 16, 1);
 }
 
 .projectDisp-contentLeft button {
@@ -48,13 +49,15 @@ projectDisp {
   margin: auto auto 30px auto;
   font-size: 15pt;
   font-weight: bold;
+  box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.1);
 }
 
 .projectDisp-contentLeft button:hover {
   color: white;
-  background-color: rgb(255, 60, 60);
+  background-color: rgb(235, 73, 84);
   margin: auto auto 20px auto;
   height: 60px;
+  box-shadow: 0px 0px 5px 5px rgba(235, 73, 84, 0.3);
 }
 
 .projectDisp-contentRight {
@@ -87,7 +90,7 @@ projectDisp {
   }
   
   .projectDisp-contentLeft {
-    background-color: rgb(255, 255, 255, 0.1);
+    background-color: rgb(255, 255, 255, 0.8);
     width: 100%;
     height: 50%;
     border-radius: 30px 30px 0px 0px;
@@ -100,7 +103,7 @@ projectDisp {
     margin: 20px 20px 0px 20px;
     font-family: roboto-bold;
     text-decoration: solid 2px;
-    color: white;
+    color: rgba(10, 10, 16, 1);
   }
   
   .projectDisp-contentLeft p {
@@ -108,7 +111,7 @@ projectDisp {
     font-size: 17pt;
     font-weight: normal;
     font-family: roboto;
-    color: white;
+    color: rgba(10, 10, 16, 1);
   }
   
   .projectDisp-contentLeft button {
@@ -127,7 +130,7 @@ projectDisp {
   
   .projectDisp-contentLeft button:hover {
     color: white;
-    background-color: rgb(255, 60, 60);
+    background-color: rgb(235, 73, 84);
     margin: auto auto 20px auto;
     height: 60px;
   }
