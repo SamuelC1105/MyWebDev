@@ -6,11 +6,17 @@ projectDisp {
 }
 
 .projectDisp-contentContainer {
+  transition: 0.3s;
   width: 80%;
   margin: 0px auto 0px auto; 
   display: flex;
   border-radius: 30px;
   box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.projectDisp-contentContainer:hover {
+  transition: 0.3s;
+  box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.2);
 }
 
 .projectDisp-contentLeft {
@@ -60,6 +66,10 @@ projectDisp {
   box-shadow: 0px 0px 5px 5px rgba(235, 73, 84, 0.3);
 }
 
+.projectDisp-contentLeft button:active {
+  opacity: 0.8;
+}
+
 .projectDisp-contentRight {
   width: 50%;
   background-color: rgb(32, 36, 50);
@@ -69,6 +79,15 @@ projectDisp {
 
 .projectDisp-contentRight img {
   border-radius: 0px 30px 30px 0px;
+  width: 100%;
+  transition: 0.3s;
+}
+
+.projectDisp-contentContainer:hover img {
+  transition: 0.3s;
+  transform: scale(1.02);
+  margin-left: 10px;
+  rotate:0.5deg;
 }
 
 @media (max-width: 1420px) {

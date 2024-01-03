@@ -8,9 +8,9 @@ body {
   min-height: 100%;
   min-width: 100%;
   font-family: roboto;
+  background: url("background/pexels-stefan-stefancik-mountainRanges.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
   background-position: center center;
-  background: linear-gradient(170deg,#a1e3df, #5AE2E6);
 }
